@@ -26,7 +26,7 @@ document.getElementById(this.state.NavItemActive).classList.add('active');
 
 
 render() { return ( 
-    <nav>
+    <nav class='items'>
 
 <ul>
 <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
