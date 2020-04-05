@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
+import profilepic from '../Images/profilepic.jpg';
 
 
-class Home extends Component { render() { 
-    return (
-        
-        
-<div className="condiv home">
-{/* 
-<img src={profilepic} className='profilepic'/>
-*/}
+class Home extends Component { 
+    render() { 
+        return (
+            <div className="condiv home">
+            <img src={profilepic} className='profilepic'/>
+
+
 {/* typing effect */}
 <ReactTypingEffect 
 className="typingeffect" 
